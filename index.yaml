@@ -6,7 +6,7 @@ entries:
     description: UrbanCode Deploy Server 
     digest: sha256:24540bc4f498f9ea6822ab8ef74fd8820219e7163d333124bccc29e5c30be87a
     home: https://hub.docker.com/r/ibmcom/ucds/ 
-    icon: https://cdn.xebialabs.com/assets/files/plugins/urbancode-deploy.jpg 
+    icon: https://www.ibm.com/developerworks/community/blogs/nfrsblog/resource/BLOGS_UPLOADED_IMAGES/urbancode-logo.jpg 
     name: urbancode
     urls:
     - http://127.0.0.1:8879/charts/urbancode-6.2.5.tgz
