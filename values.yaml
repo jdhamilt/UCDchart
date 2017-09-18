@@ -1,0 +1,22 @@
+# Default values for urbancode.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+replicaCount: 1
+image:
+  repository: ibmcom/ucds
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  type: NodePort
+  name: urbancode
+  port: 9080
+  targetPort: 9080
+enableResourceConstraints: false
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 100m
+    memory: 128Mi
+
